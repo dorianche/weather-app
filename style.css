@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    background: url(./src/lake.jpg) no-repeat center center fixed; 
+    background-size: cover; 
+    font-family: 'Montserrat', sans-serif; 
+    color: #F5F5F5;  
+
+    
+    
+} 
+
+#container {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px 10vh; 
+    
+}
+
+#city {
+    color: #F5F5F5;
+    font-size: 60px;
+    font-weight: 700;
+} 
+
+.footer {
+    color: #F5F5F5; 
+    padding: 20px 20px; 
+    width: 100%; 
+    font-size: 1rem; 
+    
+    
+    
+    background-color: rgb(0, 0, 0, 0.6); 
+    
+    
+} 
+
+.logo { 
+    color: #F5F5F5; 
+    font-size: 30px; 
+    justify-self: end; 
+    padding: 20px; 
+    border:2px solid #F5F5F5;
+} 
+
+.img {
+    width: 2rem;
+} 
+
+.header {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 10vh; 
+    align-items: center;
+} 
+
+#date {
+    font-weight: 600; 
+    letter-spacing: 2px;
+    font-size: 1rem; 
+    
+} 
+
+#cityform {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: rgb(0, 0, 0, 0); 
+    color: #F5F5F5;  
+    border: none;
+
+} 
+
+#cityform:focus {
+    outline: none;
+}
+
+::placeholder {
+  color:  #F5F5F5; 
+  
+} 
+
+#cards {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)) ; 
+    justify-content: space-between;
+    padding: 20px 15px; 
+    gap: 20px;   
+} 
+
+#leftpanel , #rightpanel  {
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px;
+} 
+
+#whole { 
+    display: grid; 
+    grid-template-rows : 1fr 3fr 1fr; 
+    height: 100vh;
+} 
+
+#boxDate {
+    font-size: 0.8rem; 
+    font-weight: 600; 
+    justify-self: center;
+}
+
+#daily { 
+    font-size: 1rem;
+    font-weight: 600; 
+    border: 1px solid #F5F5F5; 
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 10vh;
+    
+} 
+
+#search {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #F5F5F5;
+} 
+
+#searchbut:hover { 
+    cursor:pointer;
+} 
+
+#hu , #ra , #wi {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    column-gap: 15px; 
+    row-gap: 8px;
+} 
+
+.details { 
+    grid-column: 2; 
+    grid-row: 1; 
+    font-size: 0.7rem; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    align-self: end;
+}
+
+#humidity , #rain , #wind {
+    grid-column: 2; 
+    grid-row: 2; 
+    font-size: 2rem;
+    font-weight: 700;
+} 
+
+#water , #umbrella , #air {
+    grid-column: 1; 
+    grid-row: 1 / span 2;
+    align-self: center; 
+    justify-self: end; 
+    font-size: 2rem; 
+    font-weight: 400;
+} 
+
+#currentemp {
+    font-size: 3.5rem;
+    font-weight: 700;
+    align-self: center;
+} 
+
+#currentlogo {
+    align-self: center;
+}
+
+#currentweather {
+    font-size: 1.5rem; 
+} 
+
+#box {
+    display: grid; 
+    justify-content: center; 
+    align-items: center;
+    grid-template-rows: 1fr 3fr 2fr 1fr;
+} 
+
+.dailytemp {
+    font-size: 2rem;
+    font-weight: 700;
+    justify-self: center;
+} 
+
+.mintemp {
+    font-weight: 500;
+    justify-self: center; 
+    align-self: start;
+}

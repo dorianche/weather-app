@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100&display=swap" rel="stylesheet"> 
+<link rel="icon" type="image/svg" href="./src/logo.svg"> 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <title>Weather</title>
+</head>
+<body>
+        
+        <div id="whole">
+            <div class="header">
+                <div id="city"></div>
+                <div class="logo"><img class="img" src="./src/logo.svg" alt="">Weather</div>
+            </div>
+            <div id="container">
+            <div id="leftpanel">
+                <div id="date"></div>
+                <div id="currentweather"></div>
+                <div id="currentlogo"></div>
+                <div id="currentemp"></div>
+                <div id="search">
+                    
+                        <input type="text" id="cityform" placeholder="Search location"> 
+                        <span id="searchbut" type="submit" class="material-icons">search</span>
+                    
+                </div>
+            </div>
+            <div id="rightpanel">
+                <div id="hu">
+                    <span id="water" class="material-icons">
+                        water
+                        </span>
+                        <div class="details">Humidity</div>
+                    <div id="humidity"></div>
+                </div>
+                <div id="ra">
+                    <span id="umbrella" class="material-icons">
+                        umbrella
+                        </span>
+                        <div class="details">Chance of rain</div>
+                    <div id="rain"></div>
+                </div>
+                <div id="wi">
+                    <span id="air" class="material-icons">
+                        air
+                        </span> 
+                    <div class="details">Wind speed</div>
+                    <div id="wind"></div>
+                </div>
+            </div>
+            </div>
+            <div id="bottom">
+                <div id="daily">Daily</div>
+                <div id="cards">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">Copyright Djindo 2022</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
